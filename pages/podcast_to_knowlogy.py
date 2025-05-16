@@ -4,9 +4,7 @@ import base64
 
 load_local_css()
 
-st.page_link("app.py", label="首页", icon=":material/home:")
-st.write("")
-st.write("")
+
 
 # st.markdown("### 咕咕记")
 # st.write("")
@@ -404,5 +402,14 @@ text_16 = """
 """
 
 st.markdown(text_16)
+
+st.write("")
+st.write("")
+st.divider()
+cols = st.columns([5,1], gap="large")
+cols[0].page_link("app.py", label="首页", icon=":material/home:")
+cols[1].page_link("pages/info_extract.py", label="下一篇 :material/arrow_forward_ios:")
+
+
 
 

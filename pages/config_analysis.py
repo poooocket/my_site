@@ -3,11 +3,6 @@ from viz_style import load_local_css
 
 load_local_css()
 
-st.page_link("app.py", label="首页", icon=":material/home:")
-st.write("")
-st.write("")
-
-
 cover = "assets/config_analysis/cover.png"
 st.image(cover)
 
@@ -174,3 +169,10 @@ text_8 = """
 3. **配置画像与市场分层**：结合价格区间、年款分布等信息，为每类配置组合构建多维画像，提取核心特征标签，支撑产品规划、竞品对比与市场分层决策。
 """
 st.markdown(text_8)
+
+st.write("")
+st.write("")
+st.divider()
+cols = st.columns([5,1], gap="large")
+cols[0].page_link("app.py", label="首页", icon=":material/home:")
+cols[1].page_link("pages/info_extract.py", label="上一篇", icon=":material/arrow_back_ios:")

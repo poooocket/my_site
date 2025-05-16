@@ -3,9 +3,6 @@ from viz_style import load_local_css
 
 load_local_css()
 
-st.page_link("app.py", label="首页", icon=":material/home:")
-st.write("")
-st.write("")
 cover = "assets/info_extract/cover.png"
 st.image(cover)
 
@@ -131,3 +128,16 @@ text_5 = """
 """
 
 st.markdown(text_5)
+
+st.write("")
+st.write("")
+st.divider()
+cols = st.columns([2,1], gap="large")
+cols[0].page_link("app.py", label="首页", icon=":material/home:")
+
+with cols[1]:
+    sub_cols = st.columns(2, gap="large")
+    sub_cols[0].page_link("pages/podcast_to_knowlogy.py", label="上一篇", icon=":material/arrow_back_ios:")
+    sub_cols[1].page_link("pages/config_analysis.py", label="下一篇 :material/arrow_forward_ios:")
+    
+   
