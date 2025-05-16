@@ -408,7 +408,7 @@ st.write("")
 st.divider()
 cols = st.columns([5,1], gap="large")
 cols[0].page_link("app.py", label="首页", icon=":material/home:")
-cols[1].page_link("pages/info_extract.py", label="下一篇 :material/arrow_forward_ios:")
+cols[1].page_link("pages/info_extract.py", label="下一篇  :material/arrow_forward_ios:")
 
 
 

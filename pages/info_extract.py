@@ -137,7 +137,7 @@ cols[0].page_link("app.py", label="首页", icon=":material/home:")
 
 with cols[1]:
     sub_cols = st.columns(2, gap="large")
-    sub_cols[0].page_link("pages/podcast_to_knowlogy.py", label="上一篇", icon=":material/arrow_back_ios:")
-    sub_cols[1].page_link("pages/config_analysis.py", label="下一篇 :material/arrow_forward_ios:")
+    sub_cols[0].page_link("pages/podcast_to_knowlogy.py", label=":material/arrow_back_ios:  上一篇")
+    sub_cols[1].page_link("pages/config_analysis.py", label="下一篇  :material/arrow_forward_ios:")
     
    
