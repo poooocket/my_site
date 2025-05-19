@@ -43,7 +43,7 @@ image_1 = "assets/photo.png"
 image_2 = "assets/photo.png"
 image_3 = "assets/photo.png"
 
-page_1 = "pages/podcast_to_knowlogy.py"
+page_1 = "pages/podcast_to_knowledge.py"
 page_2 = "pages/info_extract.py"
 page_3 = "pages/config_analysis.py"
 
